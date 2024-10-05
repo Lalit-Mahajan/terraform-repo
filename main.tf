@@ -8,6 +8,6 @@ resource "aws_instance" "one" {
   key_name               = "lalitmahajan"
   vpc_security_group_ids = ["sg-0ec7273276d113aea"]
   tags = {
-    Name = "lalit01"
+    Name = "test-server"
   }
 }
