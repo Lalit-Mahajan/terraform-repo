@@ -10,3 +10,4 @@ resource "aws_instance" "one" {
   tags = {
     Name = "lalit01"
   }
+}
